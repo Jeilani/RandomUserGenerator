@@ -1,0 +1,89 @@
+body{
+    font-family: 'Noto Sans HK', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 189, 199);
+}
+
+/* *{
+    border: 2px solid black;
+} */
+
+
+
+.container{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(188, 198, 204);
+    border-radius: 1rem;
+}
+    .caption{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            flex-grow: 2;
+        }
+
+            .picturesection{
+                flex-basis: 20%;
+                flex-grow: 1;
+            }
+                .img{
+                    border-radius: 50%;
+                    margin-right: 2rem;
+                    margin-left: 1rem;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+
+            .textsection{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex-basis: 80%;
+                flex-grow: 4;
+            }
+                .toptextsection{
+                    margin-top: 2rem;
+                }
+                .name{
+                    font-weight: 2rem;
+                    font-size: 1.1rem;
+                    color: rgb(26, 214, 158);
+                }
+                .username{
+                    color: rgb(26, 176, 214);
+                }
+                .bottomtextsection{
+                    color: gray;
+                    margin-right: 2rem;
+                    margin-bottom: 2rem;
+                    font-sizE: .75rem;
+                }
+
+        .buttonsection{
+            background-color: rgb(35, 184, 139);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 3rem;
+
+        }
+        .buttonsection:hover{
+            background-color: rgb(26, 214, 158)
+        }
